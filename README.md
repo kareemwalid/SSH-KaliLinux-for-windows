@@ -28,6 +28,17 @@ bash termux.sh
 curl https://raw.githubusercontent.com/mrx7014/SSH-KaliLinux/main/linux.sh >> linux.sh
 bash linux.sh
 ```
+- Windows
+
+```
+1-download mobaxterm for windows and install it
+2-press on start-local-terminal
+3-write "ssh root@segfault.net "
+4-then write "startxvnc"
+5-then open new terminal and write " ssh -L5900:0:5900 -o 'SetEnv SECRET={SECRET KEY U GOT}' root@teso.segfault.net"
+6-press on session then vnc and write your localhost 127.0.0.1
+
+
 
 - Password for connect
 ```sh
